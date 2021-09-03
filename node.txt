@@ -1,0 +1,2 @@
+Firstly include the Express inside the program.
+Next use urlencoded to deal with incoming data object in form of request.

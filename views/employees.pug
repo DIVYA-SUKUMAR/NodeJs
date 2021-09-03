@@ -1,0 +1,25 @@
+doctype html 
+html 
+    head 
+        title Hii There 
+    body 
+        p(style="color=yellow") This is a Pug File 
+        h1(style="color=green") Welcome All
+        table(border="2" cellpadding="10")
+                th Name 
+                    button sort 
+                th Mail 
+                    button sort 
+                th Mobile Number
+                    button sort
+                th City
+                    button sort
+                th Profession
+                    button sort
+            each val in allemployees 
+                tr 
+                    td #{val.Name}
+                    td #{val.Mail}
+                    td #{val.Mobile}
+                    td #{val.City}
+                    td #{val.Profession}
